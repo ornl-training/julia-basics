@@ -43,4 +43,4 @@ CMakeSettings.json
 
 # Jupyter Julia Kernel
 .ipynb_checkpoints/
-
+notebooks/MPI-Heat-Transfer-2D/output.dat
