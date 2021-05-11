@@ -14,6 +14,7 @@ PrettyPrinting = "54e16d92-306c-5ea0-a30b-337be88ac337"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 
 [compat]
 JuliaFormatter = "0.6.2"
