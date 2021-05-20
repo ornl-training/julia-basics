@@ -4,7 +4,7 @@ Tutorial material for Julia basic training using [from zero to Julia](https://te
 
 Run on mybinder.org:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ornl-training/julia-basics/2021osdx?filepath=notebooks)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ornl-training/julia-basics/2021osdx_1?filepath=notebooks)
 
 
 Run locally:
@@ -17,7 +17,7 @@ Requirements:
 4. Jupyter Lab
 
 ```
-$ git clone -b 2021osdx --depth 1 https://github.com/ornl-training/julia-basics.git
+$ git clone -b 2021osdx_1 --depth 1 https://github.com/ornl-training/julia-basics.git
 $ cd 
 $ conda activate
 (base) $ cd notebooks
