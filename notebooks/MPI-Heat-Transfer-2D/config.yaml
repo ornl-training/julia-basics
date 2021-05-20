@@ -1,0 +1,13 @@
+grid:
+  nx: 128
+  ny: 128
+
+numerics:
+  nprocx: 2
+  nprocy: 2
+  max_steps: 1000
+  dt: 0.0001
+  tol: 0.5
+
+output:
+  filename: "output.dat"
