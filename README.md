@@ -4,8 +4,7 @@ Tutorial material for Julia basic training using [from zero to Julia](https://te
 
 Run on mybinder.org:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ornl-training/julia-basics/main?filepath=notebooks)
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ornl-training/julia-basics.git/main?labpath=notebooks)
 
 Run locally:
 
