@@ -4,7 +4,7 @@
 using Markdown
 using InteractiveUtils
 
-# ╔═╡ c80c2fd8-7f9a-a63c-cbfd-8c9130d95fb2
+# ╔═╡ 2122c0dc-abd8-e6a7-3bdf-f329a7200b3c
 md"""
 # Variables and Types
 
@@ -30,7 +30,7 @@ In Julia, variables can be global or local scope. **Note: avoid global variables
 
 """
 
-# ╔═╡ 9ba7f22a-eefe-a5ee-c4a3-07b8b79d3225
+# ╔═╡ 71613150-bfad-9bed-99d5-71d28eaab59e
 begin
 	# Use # for comments
 	# I'm a global variable...don't use global variables unless it's necessary (e.g. library)
@@ -59,7 +59,7 @@ begin
 	run()
 end
 
-# ╔═╡ d8a81280-63fa-d2c2-0083-d57eb8acf51e
+# ╔═╡ 7c72b738-be7e-5f56-b3a3-f8af99257bc8
 md"""
 ## Types
 
@@ -72,7 +72,7 @@ Julia enables out-of-the-box type safety as types can be explicitly assigned usi
 Types can be retrieved using the `typeof` function. It's good practtice to be aware of default types on your system:
 """
 
-# ╔═╡ d01e2060-1f12-fb15-a9af-f8bbe4411fd1
+# ╔═╡ e3c865cf-fcea-dd86-a807-e2713de2594a
 begin
 	println("Default types:")
 	function runWithoutTypes()
@@ -115,7 +115,7 @@ begin
 	runWithTypes()
 end
 
-# ╔═╡ b5862c21-0222-0680-43b5-f2d3d023cabb
+# ╔═╡ 9039894d-c27f-6c98-b39b-535e96b55165
 md"""
 **NOTE: the dictionary type Dict must be typed at least on the right-side of =, otherwise Julia assings a Tuple** 
 
@@ -124,7 +124,7 @@ Although it is possible to change the value of a variable inside a program (it i
 If we know that a variable (such as a) will have to contain values of type `Float64` it is better to initialise it with a value that is already of that type.
 """
 
-# ╔═╡ 49eebfb5-a4cf-d4a1-170b-62f4a15ae719
+# ╔═╡ 98c5294b-e703-3caf-c05b-58bd5e1e5f05
 begin
 	function run()
 	  a = 2 # if we need to operate with ints
@@ -142,13 +142,13 @@ begin
 	run()
 end
 
-# ╔═╡ 2e7a4169-c98d-593c-925b-776a94a30f0b
+# ╔═╡ 05085c9f-c50f-b8d7-9196-f5159aa29983
 md"""
 # Conclusion
 We have learned what variables are, how to perform basic operations and we have dealt about types.
 """
 
-# ╔═╡ 0d1caafa-382b-7e10-f108-dd5393edf7f7
+# ╔═╡ bf90751a-a161-3f45-8d37-3e92281eb3d3
 md"""
 Questions:
 
@@ -158,11 +158,11 @@ Questions:
 """
 
 # ╔═╡ Cell order:
-# ╠═c80c2fd8-7f9a-a63c-cbfd-8c9130d95fb2
-# ╠═9ba7f22a-eefe-a5ee-c4a3-07b8b79d3225
-# ╠═d8a81280-63fa-d2c2-0083-d57eb8acf51e
-# ╠═d01e2060-1f12-fb15-a9af-f8bbe4411fd1
-# ╠═b5862c21-0222-0680-43b5-f2d3d023cabb
-# ╠═49eebfb5-a4cf-d4a1-170b-62f4a15ae719
-# ╠═2e7a4169-c98d-593c-925b-776a94a30f0b
-# ╠═0d1caafa-382b-7e10-f108-dd5393edf7f7
+# ╠═2122c0dc-abd8-e6a7-3bdf-f329a7200b3c
+# ╠═71613150-bfad-9bed-99d5-71d28eaab59e
+# ╠═7c72b738-be7e-5f56-b3a3-f8af99257bc8
+# ╠═e3c865cf-fcea-dd86-a807-e2713de2594a
+# ╠═9039894d-c27f-6c98-b39b-535e96b55165
+# ╠═98c5294b-e703-3caf-c05b-58bd5e1e5f05
+# ╠═05085c9f-c50f-b8d7-9196-f5159aa29983
+# ╠═bf90751a-a161-3f45-8d37-3e92281eb3d3

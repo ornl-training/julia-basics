@@ -1,9 +1,11 @@
-#import Pkg
+using Pkg
 #Pkg.add("JSON")
 using JSON
 
+
+plutoversion = filter(x-> x.second.name == "Pluto", Pkg.dependencies()) |> x -> first(x)[2].version
 header = """### A Pluto.jl notebook ###
-# v0.19.26
+# v$plutoversion
 
 using Markdown
 using InteractiveUtils
