@@ -10,14 +10,15 @@ Run locally:
 
 Requirements:
 
-1. Julia v1.6
+1. Julia > v1.6
 2. IJulia
 3. conda
 4. Jupyter Lab
 
 ```
-$ git clone -b 2021osdx_1 --depth 1 https://github.com/ornl-training/julia-basics.git
-$ cd 
+$ git clone https://github.com/ornl-training/julia-basics.git
+$ cd julia-basics
+$ julia --project -e "import Pkg; Pkg.instantiate()"
 $ conda activate
 (base) $ cd notebooks
 (base) $ jupyter-lab
