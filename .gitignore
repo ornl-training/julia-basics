@@ -39,6 +39,7 @@ docs/pyvenv.cfg
 
 # Visual Studio
 .vs/
+.vscode/
 CMakeSettings.json
 
 # Jupyter Julia Kernel
