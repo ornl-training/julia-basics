@@ -2,7 +2,7 @@
 
 1. Julia latest version (1.11+)
    - [Download Julia](https://julialang.org/downloads/)
-2. VS Code
+2. VS Code (optional)
 3. IJulia (already included in the project, no need to install separately)
 
 ## Quick Start
